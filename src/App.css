@@ -100,6 +100,7 @@
     );
 }
 
+.customer-reviews-content,
 .transport-pic,
 .content {
   object-fit: contain;
@@ -162,4 +163,33 @@
 .transport-container {
   position: absolute;
   top: 157.3rem;
+}
+
+.customer-reviews-container {
+  margin-top: 6rem;
+}
+
+.second-col {
+  background: #f4f4f4;
+}
+
+.second-col-pic {
+  height: 100%;
+  width: 50%;
+  object-fit: contain;
+  margin-left: 3rem;
+}
+
+.opportunity-pic {
+  height: 100%;
+  width: 100%;
+
+  /* object-fit: contain; */
+  background: #091242;
+}
+
+.team-pic {
+  height: 100%;
+  width: 70%;
+  object-fit: contain;
 }

@@ -17,6 +17,14 @@ import pic2 from './images/2.png';
 import pic3 from './images/3.png';
 import pic4 from './images/4.png';
 import pic5 from './images/5.png';
+import testimonial from './images/Sub Text (2).png';
+import pic6 from './images/User.png';
+import pic7 from './images/Image.png';
+import pic8 from './images/Content (1).png';
+import pic9 from './images/1 (1).png';
+import pic10 from './images/2 (1).png';
+import pic11 from './images/3 (1).png';
+import team from './images/Sub Text (3).png';
 
 function App() {
   return (
@@ -195,6 +203,58 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Customer Reviews */}
+
+      <section className="customer-reviews">
+        <div className="customer-reviews-container ps-5 justify-content-center">
+          <div className="customer-reviews-testimonial">
+            <img src={testimonial} alt="testimonial" />
+          </div>
+          <div className="customer-reviews-text mb-5 ">
+            <h1 className="customer-reviews-intro">What Our Customer Say</h1>
+          </div>
+          <div className="customer-reviews-content ">
+            <img src={pic6} alt="pic6" />
+          </div>
+        </div>
+      </section>
+
+      <section className="opportunity">
+        <div className="opportunity-container mt-5">
+          <div className="row">
+            <div className="col-md-6">
+              <img src={pic7} alt="pic7" className="opportunity-pic" />
+            </div>
+            <div className="col-md-6 second-col d-flex justify-content-center">
+              <img src={pic8} alt="pic8" className="second-col-pic" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="team">
+        <div className="team-container text-center mt-5">
+          <div className="team-text">
+            <img src={team} alt="team" />
+          </div>
+          <div className="team-text">
+            <h1 className="team-intro">Meet Expert Team</h1>
+          </div>
+          <div className="row row-cols-3 mt-5">
+            <div className="col">
+              <img src={pic9} alt="pic9" className="team-pic" />
+            </div>
+            <div className="col">
+              <img src={pic10} alt="pic10" className="team-pic" />
+            </div>
+            <div className="col">
+              <img src={pic11} alt="pic11" className="team-pic" />
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
 
   );
