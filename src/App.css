@@ -99,3 +99,67 @@
       #ffd7a6 116.84%
     );
 }
+
+.transport-pic,
+.content {
+  object-fit: contain;
+  height: 100%;
+  width: 90%;
+}
+
+.about-intro {
+  height: 93px;
+  left: 0;
+  top: 38px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+  color: #1c1f35;
+}
+
+.services {
+  background-image: url(./images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.service-container {
+  margin-top: 30rem;
+}
+
+.transport {
+  background:
+    linear-gradient(
+      95deg,
+      #ffb629 -1.19%,
+      #ffda56 57.78%,
+      #ffd7a6 115.08%
+    );
+  margin-top: 65rem;
+  height: 40vh;
+}
+
+.transport-intro {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  color: #1c1f35;
+}
+
+.button3 {
+  background: #091242;
+  width: 194px;
+  height: 60px;
+}
+
+.transport-container {
+  position: absolute;
+  top: 157.3rem;
+}
