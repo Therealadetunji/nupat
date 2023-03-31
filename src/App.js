@@ -8,6 +8,15 @@ import facebook from './images/Facebook.png';
 import twitter from './images/Twitter.png';
 import linkedin from './images/Linkdin.png';
 import subtext from './images/Sub Text.png';
+import subtext2 from './images/Sub Text (1).png';
+import content from './images/Content.png';
+import about from './images/About.png';
+import counter from './images/Counter.png';
+import pic1 from './images/1.png';
+import pic2 from './images/2.png';
+import pic3 from './images/3.png';
+import pic4 from './images/4.png';
+import pic5 from './images/5.png';
 
 function App() {
   return (
@@ -121,6 +130,71 @@ function App() {
         </div>
       </section>
 
+      {/* About */}
+
+      <section className="about">
+        <div className="container-fluid ms-4">
+          <div className="row mt-5 p-4 d-flex justify-content-center">
+            <div className="col-md-6">
+              <div className="about-text">
+                <img src={subtext2} alt="subtext2" />
+                <h1 className="about-intro">Safe & Reliable Cargo Solutions</h1>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="about-content">
+                <img src={content} alt="content" className="content" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="services mt-4">
+        <div className="container-fluid">
+          <div className="service d-flex justify-content-center">
+            <div className="service-container">
+              <img src={about} alt="about" className="service" />
+            </div>
+          </div>
+          <div className="d-flex justify-content-center mt-5">
+            <img src={counter} alt="counter" className="counter" />
+          </div>
+        </div>
+      </section>
+
+      <section className="transport">
+        <div className="transport-container">
+          <div className="transport-text d-flex justify-content-center">
+            <h1 className="transport-intro">Transporting Across The World</h1>
+          </div>
+
+          <div className="transport-pictures d-flex justify-content-center">
+            <div className="row row-cols-5 g-1">
+              <div className="col">
+                <img src={pic1} alt="pic1" className="transport-pic" />
+              </div>
+              <div className="col">
+                <img src={pic2} alt="pic2" className="transport-pic" />
+              </div>
+              <div className="col">
+                <img src={pic3} alt="pic3" className="transport-pic" />
+              </div>
+              <div className="col">
+                <img src={pic4} alt="pic4" className="transport-pic" />
+              </div>
+              <div className="col">
+                <img src={pic5} alt="pic5" className="transport-pic" />
+              </div>
+            </div>
+          </div>
+          <div className="d-flex justify-content-center mt-5">
+            <button type="button" className="btn btn-light text-light button3">
+              Explore More
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
 
   );
