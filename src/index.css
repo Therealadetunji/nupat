@@ -6,3 +6,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik"), url("./fonts/Rubik\ Regular\ 400.ttf") format("truetype");
+  font-family: "Krub";
+  src: local("Krub"), url("./fonts/Krub\ Regular\ 400.ttf") format("truetype");
+}
