@@ -10,7 +10,16 @@
   gap: 10rem;
 }
 
+.font1 {
+  font-family: "Rubik", sans-serif;
+}
+
+.font2 {
+  font-family: "Krub", sans-serif;
+}
+
 .nav-list {
+  font-family: "Krub", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,10 +27,6 @@
   padding: 0;
   margin: 0;
   gap: 10px;
-}
-
-.navbar {
-  background: rgba(9, 18, 66, 0.25);
 }
 
 .navbar-container {
@@ -162,7 +167,7 @@
 
 .transport-container {
   position: absolute;
-  top: 157.3rem;
+  top: 158.3rem;
 }
 
 .customer-reviews-container {
@@ -183,13 +188,45 @@
 .opportunity-pic {
   height: 100%;
   width: 100%;
-
-  /* object-fit: contain; */
   background: #091242;
+}
+
+.form {
+  height: 100%;
+  width: 90%;
+  object-fit: contain;
+}
+
+.news-pic {
+  object-fit: contain;
 }
 
 .team-pic {
   height: 100%;
   width: 70%;
   object-fit: contain;
+}
+
+.footer {
+  background: #091242;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.footer-container {
+  margin-top: 5rem;
+}
+
+.button4 {
+  background: #1f2a69;
+  width: 194px;
+  height: 60px;
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
