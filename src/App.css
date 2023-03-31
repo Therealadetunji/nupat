@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background: #091242;
+  height: 160px;
+  left: 0;
+  top: 0;
+}
+
+.header {
+  padding: 0 20px;
+  gap: 10rem;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+.navbar {
+  background: rgba(9, 18, 66, 0.25);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 31rem;
+}
+
+.nav-item > a {
+  color: #fff;
+}
+
+.border {
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  top: 53px;
+  background-color: #fff;
+}
+
+.social-media {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.button1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135.02%;
+  text-align: center;
+  color: #23212a;
+}
+
+.banner {
+  background-image: url(./images/Photo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-intro {
+  height: 213px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 71px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-paragragh {
+  width: 571px;
+  height: 72px;
+  font-family: "Krub", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.52%;
+}
+
+.button2 {
+  width: 194px;
+  height: 60px;
+  background:
+    linear-gradient(
+      94.06deg,
+      #ffb629 -1.21%,
+      #ffda56 58.66%,
+      #ffd7a6 116.84%
+    );
 }
